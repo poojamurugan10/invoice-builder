@@ -1,12 +1,28 @@
-# React + Vite
+# 📄 Invoice Builder App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive **Invoice Builder** application built with **React.js**, **Tailwind CSS**, and **React Hooks** for state management.  
+The app allows users to create, edit, and export invoices as PDFs using **html2pdf.js**.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- **Dynamic Invoice Creation** – Add client details, invoice number, date, and line items.
+- **Real-time Calculations** – Automatically calculates totals and taxes.
+- **Add/Remove Items** – Manage multiple invoice line items dynamically.
+- **PDF Export** – Download the invoice as a professional-looking PDF.
+- **Responsive Design** – Works seamlessly on mobile, tablet, and desktop.
+- **State Management with Hooks** – Uses `useState` and `useRef` for managing and exporting data.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🛠️ Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS
+- **State Management:** React Hooks (`useState`, `useRef`)
+- **PDF Export:** html2pdf.js
+- **Build Tool:** Vite
+
+---
+
+
